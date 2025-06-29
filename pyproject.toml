@@ -1,0 +1,8 @@
+[project]
+name = "telegram-bot"
+version = "0.1.0"
+description = "Telegram bot"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
