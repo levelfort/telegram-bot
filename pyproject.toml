@@ -1,8 +1,11 @@
 [project]
 name = "telegram-bot"
 version = "0.1.0"
-description = "Telegram bot"
+dependencies = [
+    "aiohttp",
+    "aiogram",
+    "requests",
+]
 
-[build-system]
-requires = ["setuptools", "wheel"]
-build-backend = "setuptools.build_meta"
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
